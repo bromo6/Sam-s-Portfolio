@@ -6,3 +6,16 @@ NAVBAR
 .navBack {
     background: #dfb9ef;
 }
+/*------------------------
+--------------------------
+HOME
+--------------------------
+------------------------*/
+.backgroundPic {
+    background-image: url('/img/samSelfie1.png');
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
