@@ -14,20 +14,22 @@
 
 <body>
     <!--NAVBAR  --------------------------------------------------------------->
-    <nav class="navbar navbar-expand navbar-dark navBack">
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-8 navbar-dark navBack fixed-top">
         <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent10" aria-controls="navbarSupportedContent10" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link active" href="/myStory">My Story</a>
-                <a class="nav-item nav-link active" href="/resume">Resume</a>
-                <a class="nav-item nav-link active" href="/contact">Contact</a>
-            </div>
-        </div>
-    </nav>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent10">
+              <div class="navbar-nav ml-auto">
+                  <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link active" href="/myStory">My Story</a>
+                  <a class="nav-item nav-link active" href="/resume">Resume</a>
+                  <a class="nav-item nav-link active" href="/contact">Contact</a>
+              </div>
+          </div>
+        </nav>
+    </div>
     <!--JUMBOTRON  ---------------------------------------------------------------->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -48,30 +50,36 @@
                     <!--PARALLAX  ----------------------------------------------->
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="backgroundPic">
-                            
+
                         </div>
                     </div>
                 </div>
                 <!--CIRCLE BUTTONS  --------------------------------------------->
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="resumeCircle">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mx-auto my-auto">
+                        <div class="aCircles">
                             <a href="/resume">
-                                <p>Resume</p>
+                                <div class="resumeCircle rounded-circle">
+                                    <p class="circleText">Resume</p>
+                                </div>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="projectsCircle">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mx-auto my-auto">
+                        <div class="aCircles">
                             <a href="/projects">
-                                <p>Projects</p>
+                                <div class="projectsCircle rounded-circle">
+                                    <p class="circleText">Projects</p>
+                                </div>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="galleryCircle">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mx-auto my-auto">
+                        <div class="aCircles">
                             <a href="/gallery">
-                                <p>Gallery</p>
+                                <div class="galleryCircle rounded-circle">
+                                    <p class="circleText">Gallery</p>
+                                </div>
                             </a>
                         </div>
                     </div>

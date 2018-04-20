@@ -3,8 +3,38 @@
 NAVBAR
 --------------------------
 ------------------------*/
-.navBack {
-    background: #dfb9ef;
+.wrapper {
+    background: -webkit-gradient(linear, right top, left top, from(#1e9b41), color-stop(#a5d22d),
+    color-stop(#2d4196), to(#c30a28));
+    background: linear-gradient(270deg, #1e9b41, #a5d22d, #2d4196, #c30a28);
+    background-size: 1000% 1000%;
+    -webkit-animation: rainbow 75s ease infinite;
+    animation: rainbow 75s ease infinite;
+}
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 82%;
+    }
+}
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 82%;
+    }
+}
+.navbar.navbar-8 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0');
 }
 /*------------------------
 --------------------------
@@ -13,9 +43,35 @@ HOME
 ------------------------*/
 .backgroundPic {
     background-image: url('/img/samSelfie1.png');
-    height: 100vh;
+    height: 700px;
     width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.resumeCircle:hover, .projectsCircle:hover, .galleryCircle:hover{
+    background: black;
+}
+.resumeCircle, .projectsCircle, .galleryCircle {
+    background: grey;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding-top: 75px;
+}
+a:hover {
+    text-decoration: none;
+}
+.circleText:hover {
+    color: white;
+}
+.circleText {
+    font-size: 30px;
+    color: white;
+}
+.aCircles {
+    border-radius: 223px;
+    border: 1px solid black;
+    width: 202px;
+    height: 202px;
 }
