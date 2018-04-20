@@ -23,3 +23,9 @@ Route::get('/resume', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/project', function () {
+    return view('project');
+});
+route::get('gallery', function () {
+    return view('gallery');
+});
